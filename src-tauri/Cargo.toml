@@ -1,7 +1,7 @@
 [package]
 name = "huaban"
-version = "0.0.3"
-description = ""
+version = "0.0.4"
+description = "花瓣评分App"
 authors = ["1024xiaoshen"]
 edition = "2021"
 

@@ -46,3 +46,9 @@ document.addEventListener('DOMContentLoaded', () => {
     })
     observer.observe(targetNode, config)
 })
+// stop.js
+ document.addEventListener('contextmenu', function(event) {
+      event.preventDefault();  // 禁止右键菜单
+      alert("右键被禁用！");    // 可选的提示信息
+    });
+// end stop.js
